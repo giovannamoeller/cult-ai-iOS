@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		48905AE52CF4094100816826 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 48905AE42CF4094100816826 /* MarkdownUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		48905AA62CF3DCD700816826 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48905AE52CF4094100816826 /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = CultAI;
 			packageProductDependencies = (
+				48905AE42CF4094100816826 /* MarkdownUI */,
 			);
 			productName = CultAI;
 			productReference = 48905A952CF3DCD600816826 /* CultAI.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 48905A8C2CF3DCD600816826;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				48905AE32CF4094100816826 /* XCRemoteSwiftPackageReference "MarkdownUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 48905A962CF3DCD600816826 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48905AE32CF4094100816826 /* XCRemoteSwiftPackageReference "MarkdownUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/MarkdownUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48905AE42CF4094100816826 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48905AE32CF4094100816826 /* XCRemoteSwiftPackageReference "MarkdownUI" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48905A8D2CF3DCD600816826 /* Project object */;
 }
